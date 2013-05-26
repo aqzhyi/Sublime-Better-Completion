@@ -1,6 +1,9 @@
 ## JavaScript API
 
+Lightweight, lazy, hint, simply completions. There are no complex snippets, just a completions.
+
 ## Features
+![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/demo-animation.gif)
 
 ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/demo1.jpg)
 
