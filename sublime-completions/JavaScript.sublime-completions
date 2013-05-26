@@ -1,6 +1,9 @@
 {
   "scope": "source.js, source.coffee, source.js.embedded.html",
 
+  // ## source
+  // * http://overapi.com/javascript/
+  // * http://www.w3schools.com/js/
   "completions":
   [
     // JavaScript Relative
@@ -19,6 +22,46 @@
     { "trigger": "draw\tjs相關", "contents": "draw" },
     { "trigger": "Stroke\tjs相關", "contents": "Stroke" },
     { "trigger": "stage\tjs相關", "contents": "stage" },
+
+    // JavaScript Graphics
+    { "trigger": "arc\tjsGraphics", "contents": "arc" },
+    { "trigger": "arcTo\tjsGraphics", "contents": "arcTo" },
+    { "trigger": "beginPath\tjsGraphics", "contents": "beginPath" },
+    { "trigger": "bezierCurveTo\tjsGraphics", "contents": "bezierCurveTo" },
+    { "trigger": "clearRect\tjsGraphics", "contents": "clearRect" },
+    { "trigger": "clip\tjsGraphics", "contents": "clip" },
+    { "trigger": "closePath\tjsGraphics", "contents": "closePath" },
+    { "trigger": "createImageData\tjsGraphics", "contents": "createImageData" },
+    { "trigger": "createLinearGradient\tjsGraphics", "contents": "createLinearGradient" },
+    { "trigger": "createPattern\tjsGraphics", "contents": "createPattern" },
+    { "trigger": "createRadialGradient\tjsGraphics", "contents": "createRadialGradient" },
+    { "trigger": "drawCustomFocusRing\tjsGraphics", "contents": "drawCustomFocusRing" },
+    { "trigger": "drawImage\tjsGraphics", "contents": "drawImage" },
+    { "trigger": "drawSystemFocusRing\tjsGraphics", "contents": "drawSystemFocusRing" },
+    { "trigger": "fill\tjsGraphics", "contents": "fill" },
+    { "trigger": "fillRect\tjsGraphics", "contents": "fillRect" },
+    { "trigger": "fillText\tjsGraphics", "contents": "fillText" },
+    { "trigger": "getImageData\tjsGraphics", "contents": "getImageData" },
+    { "trigger": "getLineDash\tjsGraphics", "contents": "getLineDash" },
+    { "trigger": "isPointInPath\tjsGraphics", "contents": "isPointInPath" },
+    { "trigger": "lineTo\tjsGraphics", "contents": "lineTo" },
+    { "trigger": "measureText\tjsGraphics", "contents": "measureText" },
+    { "trigger": "moveTo\tjsGraphics", "contents": "moveTo" },
+    { "trigger": "putImageData\tjsGraphics", "contents": "putImageData" },
+    { "trigger": "quadraticCurveTo\tjsGraphics", "contents": "quadraticCurveTo" },
+    { "trigger": "rect\tjsGraphics", "contents": "rect" },
+    { "trigger": "restore\tjsGraphics", "contents": "restore" },
+    { "trigger": "rotate\tjsGraphics", "contents": "rotate" },
+    { "trigger": "save\tjsGraphics", "contents": "save" },
+    { "trigger": "scale\tjsGraphics", "contents": "scale" },
+    { "trigger": "scrollPathIntoView\tjsGraphics", "contents": "scrollPathIntoView" },
+    { "trigger": "setLineDash\tjsGraphics", "contents": "setLineDash" },
+    { "trigger": "setTransform\tjsGraphics", "contents": "setTransform" },
+    { "trigger": "stroke\tjsGraphics", "contents": "stroke" },
+    { "trigger": "strokeRect\tjsGraphics", "contents": "strokeRect" },
+    { "trigger": "strokeText\tjsGraphics", "contents": "strokeText" },
+    { "trigger": "transform\tjsGraphics", "contents": "transform" },
+    { "trigger": "translate\tjsGraphics", "contents": "translate" },
 
     // JavaScript Window Object Methods
     { "trigger": "alert\tjsWindow", "contents": "alert" },
