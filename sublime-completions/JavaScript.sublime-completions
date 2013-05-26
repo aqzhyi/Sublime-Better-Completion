@@ -85,6 +85,16 @@
     { "trigger": "setInterval\tjsWindow", "contents": "setInterval" },
     { "trigger": "setTimeout\tjsWindow", "contents": "setTimeout" },
 
+    // JavaScript Location
+    { "trigger": "hash\tjsLocation", "contents": "hash" },
+    { "trigger": "host\tjsLocation", "contents": "host" },
+    { "trigger": "hostname\tjsLocation", "contents": "hostname" },
+    { "trigger": "href\tjsLocation", "contents": "href" },
+    { "trigger": "pathname\tjsLocation", "contents": "pathname" },
+    { "trigger": "port\tjsLocation", "contents": "port" },
+    { "trigger": "protocol\tjsLocation", "contents": "protocol" },
+    { "trigger": "search\tjsLocation", "contents": "search" },
+
     // JavaScript Events
     { "trigger": "abort\tjsEvent", "contents": "abort" },
     { "trigger": "addEventListener\tjsEvent", "contents": "addEventListener" },
