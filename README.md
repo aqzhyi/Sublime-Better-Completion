@@ -14,6 +14,8 @@
 
 ## Installation
 
+*`Package Control` will be available soon.*
+
 Download files and place it at sublime package path like `/Sublime Text 2/Data/Packages/User`.
 
 files:
@@ -25,7 +27,7 @@ files:
 
 ## Relevant issues
 
-> How to trigger classname tip when every typing?
+> How to trigger completions tip when every typing?
 
 Open file `Packages/User/Preferences.sublime-settings` or click `Setting - User` from menu. In my case, I just setup the `auto_complete_triggers` property as follow:
 
