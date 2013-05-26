@@ -185,6 +185,7 @@
     { "trigger": "self\tjsWindow", "contents": "self" },
     { "trigger": "status\tjsWindow", "contents": "status" },
     { "trigger": "top\tjsWindow", "contents": "top" },
+    { "trigger": "window\tjsWindow", "contents": "window" },
 
     // JavaScript Window Object Methods
     { "trigger": "alert\tjsWindow", "contents": "alert" },
