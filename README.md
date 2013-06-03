@@ -1,6 +1,6 @@
 ## JavaScript API
 
-Lightweight, not complex, hint, simply completion. There are no complex snippets, just a completions.
+Lightweight, not complex, hint, simply completion. There are no complex snippets, it's just completions.
 
 ## Features
 ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/demo-animation.gif)
@@ -17,16 +17,13 @@ Lightweight, not complex, hint, simply completion. There are no complex snippets
 
 ## Installation
 
-*`Package Control` will be available soon.*
+* Through the **Package control** to install.
 
-Download files and place it at sublime package path like `/Sublime Text 2/Data/Packages/User`.
+  ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/through_package_control_install.jpg)
 
-files:
-* Download raw file [JavaScript api]
-* Download raw file [jQuery api]
+* Waiting download from **Github**.
 
-[JavaScript api]: https://github.com/Pleasurazy/Sublime-JavaScript-API-Completions/raw/master/sublime-completions/JavaScript.sublime-completions
-[jQuery api]: https://raw.github.com/Pleasurazy/Sublime-JavaScript-API-Completions/master/sublime-completions/jQueryAPI.sublime-completions
+* Happy programming.
 
 ## Relevant issues
 
