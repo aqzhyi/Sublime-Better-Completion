@@ -1,8 +1,11 @@
 ## JavaScript API
 
-Lightweight, not complex, hint, simply completion. There are no complex snippets, it's just completions.
+Lightweight, not complex, hint, simply auto-completion. There are no complex snippets, it's just completions.
 
 ## Features
+
+Make your Sublime text editor auto-completion support JavaScript and jQuery functions hint.
+
 ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/demo-animation.gif)
 
 ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/demo1.jpg)
@@ -14,6 +17,17 @@ Lightweight, not complex, hint, simply completion. There are no complex snippets
 ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/demo4.jpg)
 
 ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/demo5.jpg)
+
+## API References
+
+* jQuery
+
+  * http://oscarotero.com/jquery/ version: 1.9
+
+* JavaScript
+
+  * http://overapi.com/javascript/
+  * http://www.w3schools.com/js/
 
 ## Installation
 
