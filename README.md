@@ -31,8 +31,14 @@ Make your Sublime text editor auto-completion support JavaScript, jQuery functio
 ## Different
 
 * with `*.sublime-completions` files
+  
+  * speak in English:
 
-  It seems like when scope matched would be override completions provide by sublime itself. refer to #3.
+    It seems like when scope matched would be override completions provide by sublime itself. refer to #3.
+
+  * speak in Chinese:
+
+    一但 scope 匹配成功之後，雖然自製的 auto-completion 能更順利工作；但是它會覆蓋掉原本 auto-completion，只有在自製的辭彙完全沒匹配，才會顯示原本的 auto-completion，而不是將它們融合。
 
 * with `*.sublime-snippet` files
 
