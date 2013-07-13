@@ -32,11 +32,11 @@ Make your Sublime text editor auto-completion support JavaScript, jQuery functio
 
 * with `*.sublime-completions` files
 
-  It seems like when scope matched would be override completions provide by sublime itself.
+  It seems like when scope matched would be override completions provide by sublime itself. refer to #3.
 
 * with `*.sublime-snippet` files
 
-  More simpler, more lightweight with **Sublime API Completions Package**.
+  More simpler, more lightweight.
 
 
 ## Setting
