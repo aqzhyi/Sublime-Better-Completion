@@ -41,13 +41,17 @@ Make your Sublime text editor auto-completion support JavaScript, jQuery functio
 
 ## Setting
 
-```json
+```js
 {
   "completion_active_list": {
-    // As filename within `/sublime-completions/API-completions-${filename}.sublime-settings`.
+    // As filename within `${package}/sublime-completions/API-completions-${filename}.sublime-settings`.
     "jQuery": true,
     "JavaScript": true,
     "twitter-bootstrap": true
+  },
+  "completion_active_extend_list": {
+    // As filename within `/User/API-completions-myglossary.sublime-settings`.
+    // "myglossary": true
   }
 }
 ```
