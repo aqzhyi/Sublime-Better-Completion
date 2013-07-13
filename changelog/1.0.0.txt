@@ -1,0 +1,13 @@
+1.0.0
+=================
+
+  Using sublime plugin API to refactor package.
+
+  * Include JavaScript api completions
+  * Include ver 1.9 jQuery api completions
+  * Include ver 2.3.2 Twitch Bootstrap Class completions
+
+
+------------------------------
+Fork me on Github: http://github.com/Pleasurazy/Sublime-JavaScript-API-Completions
+------------------------------ 

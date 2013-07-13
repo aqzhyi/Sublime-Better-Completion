@@ -1,10 +1,13 @@
-## JavaScript API
+## Sublime API Completions Package
 
 Lightweight, not complex, hint, simply auto-completion. There are no complex snippets, it's just completions.
 
+
 ## Features
 
-Make your Sublime text editor auto-completion support JavaScript and jQuery functions hint.
+手刻的浪漫
+
+Make your Sublime text editor auto-completion support JavaScript, jQuery functions and bootstrap classes hint.
 
 ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/demo-animation.gif)
 
@@ -18,16 +21,53 @@ Make your Sublime text editor auto-completion support JavaScript and jQuery func
 
 ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/demo5.jpg)
 
+![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/bootstrap-demo1.jpg)
+
+![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/bootstrap-demo2.jpg)
+
+![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/bootstrap-demo3.jpg)
+
+
+## Different
+
+* with `*.sublime-completions` files
+
+  It seems like when scope matched would be override completions provide by sublime itself.
+
+* with `*.sublime-snippet` files
+
+  More simpler, more lightweight with **Sublime API Completions Package**.
+
+
+## Setting
+
+```json
+{
+  "completion_active_list": {
+    // As filename within `/sublime-completions/API-completions-${filename}.sublime-settings`.
+    "jQuery": true,
+    "JavaScript": true,
+    "twitter-bootstrap": true
+  }
+}
+```
+
+
 ## API References
 
-* jQuery
+* jQuery Version: 1.9
 
-  * http://oscarotero.com/jquery/ version: 1.9
+  * http://oscarotero.com/jquery/
 
 * JavaScript
 
   * http://overapi.com/javascript/
   * http://www.w3schools.com/js/
+
+* Twitter Bootstrap Version 2.3.2
+
+  * http://twitter.github.io/bootstrap/index.html
+
 
 ## Installation
 
@@ -39,6 +79,7 @@ Make your Sublime text editor auto-completion support JavaScript and jQuery func
 
 * Happy programming.
 
+
 ## Relevant issues
 
 > How to trigger completion hint when every typing?
@@ -49,7 +90,7 @@ Open file `Packages/User/Preferences.sublime-settings` or click `Setting - User`
   "auto_complete_triggers":
   [
     {
-      "characters": "<>\"'-_qazwsxedcrfvtgbyhnujmikolpQAZWSXEDCRFVTGBYHNUJMIKOLP",
+      "characters": "qazwsxedcrfvtgbyhnujmikolpQAZWSXEDCRFVTGBYHNUJMIKOLP",
       "selector": "text, source, meta, string, punctuation, constant"
     }
   ],

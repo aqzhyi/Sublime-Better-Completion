@@ -1,0 +1,8 @@
+{
+  "completion_active_list": {
+    // As filename within `/sublime-completions/API-completions-${filename}.sublime-settings`.
+    "jQuery": true,
+    "JavaScript": true,
+    "twitter-bootstrap": true
+  }
+}
