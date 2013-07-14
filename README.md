@@ -11,27 +11,27 @@ Make your Sublime text editor auto-completion support JavaScript, jQuery API, bo
 
 #### JavaScript and jQuery
 
-![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/demo-animation.gif)
+![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/JavaScript-and-jQuery/demo1.gif)
 
-![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/demo1.jpg)
+![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/JavaScript-and-jQuery/static1.jpg)
 
-![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/demo2.jpg)
+![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/JavaScript-and-jQuery/static2.jpg)
 
-![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/demo3.jpg)
+![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/JavaScript-and-jQuery/static3.jpg)
 
-![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/demo4.jpg)
+![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/JavaScript-and-jQuery/static4.jpg)
 
-![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/demo5.jpg)
+![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/JavaScript-and-jQuery/static5.jpg)
 
 #### Twitter Bootstrap
 
-![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/bootstrap-demo.gif)
+![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/bootstrap-demo/demo1.gif)
 
-![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/bootstrap-demo1.jpg)
+![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/bootstrap-demo/static1.jpg)
 
-![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/bootstrap-demo2.jpg)
+![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/bootstrap-demo/static2.jpg)
 
-![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/bootstrap-demo3.jpg)
+![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/bootstrap-demo/static3.jpg)
 
 
 ## Why this package?
