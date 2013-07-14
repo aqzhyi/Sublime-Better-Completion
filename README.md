@@ -38,7 +38,7 @@ Make your Sublime text editor auto-completion support JavaScript, jQuery API, bo
 
 * Compared with `*.sublime-snippet` files:
 
-  More simpler to build own API completions.
+  Simpler to build own API completions.
 
 * Compared with `*.sublime-completions` files:
   
