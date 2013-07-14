@@ -1,0 +1,17 @@
+[
+  {
+    "caption": "API-Completion-Package: Open Github project url",
+    "args": {"url": "http://github.com/Pleasurazy/Sublime-JavaScript-API-Completions"},    
+    "command": "open_url"
+  },
+  {
+    "caption": "API-Completion-Package: Settings – Default",
+    "args": {"file": "${packages}/JavaScript and jQuery API Completions/sublime-API-Completions-Package.sublime-settings"},
+    "command": "open_file"
+  },
+  {
+    "caption": "API-Completion-Package: Settings – User",
+    "args": {"file": "${packages}/User/sublime-API-Completions-Package.sublime-settings"},
+    "command": "open_file"
+  }
+]
