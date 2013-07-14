@@ -89,7 +89,7 @@ Make your Sublime text editor auto-completion support JavaScript, jQuery API, bo
 
 * Using **Package control** to install.
 
-  ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/through_package_control_install.jpg)
+  ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/UsingPackageControl.jpg)
 
 * Waiting download from **Github**.
 
