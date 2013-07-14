@@ -33,6 +33,14 @@ Make your Sublime text editor auto-completion support JavaScript, jQuery API, bo
 
 ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/bootstrap-demo/static3.jpg)
 
+#### HTML / HTML5
+
+![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/HTML/html-demo1.jpg)
+
+![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/HTML/static1.jpg)
+
+![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/HTML/static2.jpg)
+
 
 ## Why this package?
 
