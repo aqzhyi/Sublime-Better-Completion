@@ -1,12 +1,14 @@
 {
   "completion_active_list": {
-    // As filename within `${package}/sublime-completions/API-completions-${filename}.sublime-settings`.
+    // As filename `API-completions-${filename}.sublime-settings`.
     "jQuery": true,
     "JavaScript": true,
     "twitter-bootstrap": true
   },
   "completion_active_extend_list": {
-    // As filename within `/User/API-completions-myglossary.sublime-settings`.
-    // "myglossary": true
+    // As filename `API-completions-${filename}.sublime-settings`.
+    // "myGlossary": true,
+    // "myAngularJS": true,
+    // "HTML": true
   }
 }

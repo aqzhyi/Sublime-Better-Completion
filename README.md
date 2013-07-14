@@ -53,20 +53,31 @@ Make your Sublime text editor auto-completion support JavaScript, jQuery API, bo
 
 ## Setting
 
+The `sublime-completions` folder is my collection of APIs You might want to enable or disable it.
+
+Your own APIs, place in `/Sublime Text 2/Data/Packages/User/API-completions-${filename}.sublime-settings` is recommend.
+
 ```js
 {
   "completion_active_list": {
-    // As filename within `${package}/sublime-completions/API-completions-${filename}.sublime-settings`.
-    "jQuery": true,
-    "JavaScript": true,
-    "twitter-bootstrap": true
+    // As filename `API-completions-${filename}.sublime-settings`.
+    "jQuery": false,
+    "JavaScript": false,
+    "twitter-bootstrap": false
   },
   "completion_active_extend_list": {
-    // As filename within `/User/API-completions-myglossary.sublime-settings`.
-    // "myglossary": true
+    // As filename `API-completions-${filename}.sublime-settings`.
+    "myGlossary": true,
+    "myAngularJS": true,
+    "myjQuery": true,
+    "myJavaScript": true,
+    "mytwitter-bootstrap": true,
+    "HTML": true
   }
 }
 ```
+
+After you enable, disable or added new completions, you might need restart your Sublime Text.
 
 
 ## API References
@@ -84,6 +95,9 @@ Make your Sublime text editor auto-completion support JavaScript, jQuery API, bo
 
   * http://twitter.github.io/bootstrap/index.html
 
+* HTML / HTML5
+
+  * http://devdocs.io/html-html5/
 
 ## Installation
 
