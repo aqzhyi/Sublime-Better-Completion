@@ -34,6 +34,6 @@ class PleasurazyAPICompletionsPackage(sublime_plugin.EventListener):
     compDefault = [(item + "\tDefault", item) for sublist in compDefault for item in sublist if len(item) > 3]
     compDefault = list(set(compDefault))
     completions = list(self.completions)
-    completions.extend(compDefault)
     completions = [tuple(attr) for attr in self.completions]
+    completions.extend(compDefault)
     return (completions)
