@@ -1,5 +1,5 @@
 {
-  "scope": "source.js, source.coffee, source.js.embedded.html",
+  "scope": "source.js - string, source.coffee, source.js.embedded.html",
 
   // ## source
   // * http://overapi.com/javascript/
@@ -422,6 +422,6 @@
     [ "strokeRect\tjsGraphics", "strokeRect" ],
     [ "strokeText\tjsGraphics", "strokeText" ],
     [ "transform\tjsGraphics", "transform" ],
-    [ "translate\tjsGraphics","translate"]
+    [ "translate\tjsGraphics", "translate" ]
   ]
 }
