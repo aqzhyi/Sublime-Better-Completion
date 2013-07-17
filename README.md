@@ -1,13 +1,15 @@
 ## Sublime API Completions Package
 
-Lightweight, not complex, hint, simply auto-completion. There are no complex snippets, it's just completions.
+This package aim at provide a simpler way to build own auto-completion.
+
+**auto-completion** is lightweight, not complex, simpler than **snippets**.
+
+This package also provide several APIs completions such as JavaScript, jQuery API and Bootstrap Classes collect by me.
 
 
 ## Features
 
 手刻的浪漫
-
-Make your Sublime text editor auto-completion support JavaScript, jQuery API, bootstrap classes and custom completion hint.
 
 #### JavaScript and jQuery
 
