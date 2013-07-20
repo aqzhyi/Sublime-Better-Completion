@@ -11,6 +11,7 @@
     ["link-canonical\tHTML/Snippet", "<line rel=\"canonical\" href=\"$1\">"],
     ["link-css\tHTML/Snippet", "<line rel=\"stylesheet\" href=\"$1\">"],
     ["link-icon\tHTML/Snippet", "<line rel=\"shortcut icon\" href=\"$1\">"],
+    ["script-src\tHTML/Snippet", "<script src=\"$1\"></script>"],
 
     // [HTML / Standard]: http://devdocs.io/html-standard/
     [ "a\tHTML/Element", "<a>$1</a>"],
