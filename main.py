@@ -8,12 +8,14 @@ class PleasurazyAPICompletionsPackage():
     self.settings = sublime.load_settings('sublime-API-Completions-Package.sublime-settings')
 
     # Caching completions
-    for key in self.settings.get('completion_active_list'):
-      self.api[key] = sublime.load_settings('API-completions-' + key + '.sublime-settings')
+    for API_Keyword in self.settings.get('completion_active_list'):
+      self.api[API_Keyword] = sublime.load_settings('API-completions-' + API_Keyword + '.sublime-settings')
 
     # Caching extended completions
-    for key in self.settings.get('completion_active_extend_list'):
-      self.api[key] = sublime.load_settings('API-completions-' + key + '.sublime-settings')
+    for API_Keyword in self.settings.get('completion_active_extend_list'):
+      self.api[API_Keyword] = sublime.load_settings('API-completions-' + API_Keyword + '.sublime-settings')
+
+
 
 # In Sublime Text 3 things are loaded async, using plugin_loaded() callback before try accessing.
 pleasurazy = PleasurazyAPICompletionsPackage()
@@ -33,12 +35,12 @@ class PleasurazyAPICompletionsPackageEventListener(sublime_plugin.EventListener)
   def on_query_completions(self, view, prefix, locations):
     self.completions = []
 
-    for key in pleasurazy.api:
+    for API_Keyword in pleasurazy.api:
       # If completion active
-      if pleasurazy.settings.get('completion_active_list').get(key) or pleasurazy.settings.get('completion_active_extend_list').get(key):
-        scope = pleasurazy.api[key].get('scope')
+      if pleasurazy.settings.get('completion_active_list').get(API_Keyword) or pleasurazy.settings.get('completion_active_extend_list').get(API_Keyword):
+        scope = pleasurazy.api[API_Keyword].get('scope')
         if scope and view.match_selector(locations[0], scope):
-          self.completions += pleasurazy.api[key].get('completions')
+          self.completions += pleasurazy.api[API_Keyword].get('completions')
 
     if not self.completions:
       return []
