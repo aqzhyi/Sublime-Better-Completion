@@ -169,7 +169,7 @@
     [ "param\tjQuery", "param(\"$1\")$0" ],
     [ "serialize\tjQuery", "serialize()" ],
     [ "serializeArray\tjQuery", "serializeArray()" ],
-    [ "ajax\tjQuery", "ajax(\"$1\")$0" ],
+    [ "ajax\tjQuery", "ajax({$1})$0" ],
     [ "ajaxSetup\tjQuery", "ajaxSetup(\"$1\")$0" ],
     [ "get\tjQuery", "get(\"$1\")$0" ],
     [ "getJSON\tjQuery", "getJSON(\"$1\")$0" ],
@@ -177,7 +177,7 @@
     [ "post\tjQuery", "post(\"$1\")$0" ],
 
     // 核心 / Core
-    [ "jQuery\tjQuery", "jQuery" ],
+    [ "jQuery\tjQuery", "jQuery${2:(\"$1\")}" ],
     [ "noConflict\tjQuery", "noConflict()" ],
     [ "when\tjQuery", "when()" ],
     [ "contains\tjQuery", "contains()" ],
