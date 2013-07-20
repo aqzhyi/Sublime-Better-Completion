@@ -4,20 +4,18 @@ This package aim at provide a simpler way to build own auto-completion.
 
 **auto-completion** is lightweight, not complex, simpler than **snippets**.
 
-This package also provide several APIs completions such as JavaScript, jQuery API and Bootstrap Classes collect by me.
+This package also provide several APIs completions such as JavaScript, jQuery API, HTML5 and Bootstrap Classes collect by me.
 
 
 ## Features
 
 手刻的浪漫
 
-#### JavaScript and jQuery
+#### JavaScript and jQuery 1.9
 
 ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/JavaScript-and-jQuery/demo1.gif)
 
 ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/JavaScript-and-jQuery/static1.jpg)
-
-![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/JavaScript-and-jQuery/static2.jpg)
 
 ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/JavaScript-and-jQuery/static3.jpg)
 
@@ -25,7 +23,7 @@ This package also provide several APIs completions such as JavaScript, jQuery AP
 
 ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/JavaScript-and-jQuery/static5.jpg)
 
-#### Twitter Bootstrap
+#### Twitter Bootstrap 2.3.2
 
 ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/bootstrap-demo/demo1.gif)
 
@@ -63,31 +61,40 @@ This package also provide several APIs completions such as JavaScript, jQuery AP
 
 ## Setting
 
-The `sublime-completions` folder is my collection of APIs You might want to enable or disable it.
-
-Your own APIs, place in `/Sublime Text 2/Data/Packages/User/API-completions-${filename}.sublime-settings` is recommend.
+API files is include the setting *keyword* such as `HTML`, `jQuery`, `myGlossary` as filename `API-completions-${filename}.sublime-settings` place in `/packages/${this-package}/sublime-completions/` or `/packages/User/`.
 
 ```js
 {
+  // --------------------
+  // sublime-API-Completions-Package
+  // --------------------
+  // API files is include the setting *keyword* such as `HTML`, `jQuery`, `myGlossary` as filename `API-completions-${filename}.sublime-settings` place in `/packages/${this-package}/sublime-completions/` or `/packages/User/`.
+  // After you enable, disable or added new your own completions, you might need restart your Sublime Text.
+  // 
+  // --------------------
+  // APIs Collected by github/Pleasurazy
+  // --------------------
+  // `true` means load file and enable it
+  // `false` means load file and disable it
   "completion_active_list": {
-    // As filename `API-completions-${filename}.sublime-settings`.
-    "jQuery": false,
-    "JavaScript": false,
-    "twitter-bootstrap": false
+    "HTML": false,
+    "jQuery": true,
+    "JavaScript": true,
+    "twitter-bootstrap": true
   },
+  // --------------------
+  // Enable your own APIs
+  // --------------------
+  // `true` means load file and enable it
+  // `false` means load file and disable it, but didn't effect `completion_active_list` setting.
   "completion_active_extend_list": {
-    // As filename `API-completions-${filename}.sublime-settings`.
-    "myGlossary": true,
-    "myAngularJS": true,
-    "myjQuery": true,
-    "myJavaScript": true,
-    "mytwitter-bootstrap": true,
-    "HTML": true
+    // "myGlossary": true,
+    // "myAngularJS": true
   }
 }
 ```
 
-After you enable, disable or added new completions, you might need restart your Sublime Text.
+After you enable, disable or added new your own completions, you might need restart your Sublime Text.
 
 
 ## API References
@@ -111,11 +118,11 @@ After you enable, disable or added new completions, you might need restart your 
 
 ## Installation
 
-* Using **Package control** to install.
+* Using **Package Control** to install.
 
   ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/UsingPackageControl.jpg)
 
-* Waiting download from **Github**.
+* Waiting download.
 
 * Happy programming.
 
