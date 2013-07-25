@@ -4,13 +4,15 @@
   "completions":
   [
     // Snippets provided by Pleasurazy
-    ["meta-keywords\tHTML/Snippet", "<meta name=\"keywords\" content=\"$1\">"],
-    ["meta-description\tHTML/Snippet", "<meta name=\"description\" content=\"$1\">"],
+    ["link-canonical\tHTML/Snippet", "<link rel=\"canonical\" href=\"$1\">"],
+    ["link-css\tHTML/Snippet", "<link rel=\"stylesheet\" href=\"$1\">"],
+    ["link-help\tHTML/Snippet", "<link rel=\"help\" $1>"],
+    ["link-icon\tHTML/Snippet", "<link rel=\"shortcut icon\" href=\"$1\">"],
     ["meta-charset\tHTML/Snippet", "<meta charset=\"utf-8\">"],
     ["meta-compatible\tHTML/Snippet", "<meta http-equiv=\"X-UA-Compatible\" content=\"${1:IE=Edge,chrome=1}\">"],
-    ["link-canonical\tHTML/Snippet", "<line rel=\"canonical\" href=\"$1\">"],
-    ["link-css\tHTML/Snippet", "<line rel=\"stylesheet\" href=\"$1\">"],
-    ["link-icon\tHTML/Snippet", "<line rel=\"shortcut icon\" href=\"$1\">"],
+    ["meta-description\tHTML/Snippet", "<meta name=\"description\" content=\"$1\">"],
+    ["meta-fragment\tHTML/Snippet", "<meta name=\"fragment\" content=\"!\">"],
+    ["meta-keywords\tHTML/Snippet", "<meta name=\"keywords\" content=\"$1\">"],
     ["script-src\tHTML/Snippet", "<script src=\"$1\"></script>"],
 
     // [HTML / Standard]: http://devdocs.io/html-standard/
