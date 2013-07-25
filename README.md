@@ -6,6 +6,14 @@ This package aim at provide a simpler way to build own auto-completion.
 
 This package also provide several APIs completions such as JavaScript, jQuery API, HTML5 and Bootstrap Classes collect by me.
 
+## Compatible
+
+Sublime Text 2 with Windows 8 64bit **tested**!
+Sublime Text 2 with Windows 8 32bit **tested**!
+Sublime Text 3 with Windows 7 64bit **tested**!
+
+[![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/CanISwitchToSublimeText3.jpg)](http://www.caniswitchtosublimetext3.com/8f)
+
 
 ## Features
 
@@ -15,11 +23,7 @@ This package also provide several APIs completions such as JavaScript, jQuery AP
 
 ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/JavaScript-and-jQuery/demo1.gif)
 
-![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/JavaScript-and-jQuery/static1.jpg)
-
 ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/JavaScript-and-jQuery/static3.jpg)
-
-![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/JavaScript-and-jQuery/static4.jpg)
 
 ![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/JavaScript-and-jQuery/static5.jpg)
 
