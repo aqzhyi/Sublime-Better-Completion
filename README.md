@@ -8,9 +8,11 @@ This package also provide several APIs completions such as JavaScript, jQuery AP
 
 ## Compatible
 
-Sublime Text 2 with Windows 8 64bit **tested**!
-Sublime Text 2 with Windows 8 32bit **tested**!
-Sublime Text 3 with Windows 7 64bit **tested**!
+- Sublime Text 2 with Windows 8 64bit **tested**!
+
+- Sublime Text 2 with Windows 8 32bit **tested**!
+
+- Sublime Text 3 with Windows 7 64bit **tested**!
 
 [![](https://raw.github.com/Pleasurazy/Sublime-JavsScript-API-Completions/master/README/CanISwitchToSublimeText3.jpg)](http://www.caniswitchtosublimetext3.com/8f)
 
