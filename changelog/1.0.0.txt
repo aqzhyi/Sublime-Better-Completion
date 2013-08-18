@@ -1,12 +1,28 @@
-1.0.0
+1.0.0-2013.08.18
+=================
+  
+  - Added UnderscoreJS API completions. (isEnable: false)
+  - Sublime Text 2 with MAC OS X 10.8.4 has been tested!
+
+---
+
+Addition information
+====================
+  
+  > How to trigger completion hint when every typing?
+
+  Please refer to https://github.com/Pleasurazy/Sublime-JavaScript-API-Completions#relevant-issues
+  or Read the README.md
+
+---
+
+1.0.0-initial
 =================
 
-  Using sublime plugin API to refactor package.
-
-  * Include JavaScript api completions
-  * Include ver 1.9 jQuery api completions
-  * Include ver 2.3.2 Twitch Bootstrap Class completions
-
+  - Using sublime plugin API to refactor package.
+  - Include JavaScript API completions
+  - Include ver 1.9 jQuery API completions
+  - Include ver 2.3.2 Twitch Bootstrap Class completions
 
 ------------------------------
 Fork me on Github: http://github.com/Pleasurazy/Sublime-JavaScript-API-Completions

@@ -12,6 +12,7 @@
   // `false` means load file and disable it
   "completion_active_list": {
     "HTML": false,
+    "Underscore": false,
     "jQuery": true,
     "JavaScript": true,
     "twitter-bootstrap": true

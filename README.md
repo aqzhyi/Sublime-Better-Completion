@@ -4,9 +4,11 @@ This package aim at provide a simpler way to build own auto-completion.
 
 **auto-completion** is lightweight, not complex, simpler than **snippets**.
 
-This package also provide several APIs completions such as JavaScript, jQuery API, HTML5 and Bootstrap Classes collect by me.
+This package also provide several APIs completions such as JavaScript, jQuery API, Underscore API, HTML5 and Bootstrap Classes collect by me.
 
 ## Compatible
+
+- Sublime Text 2 with MAC OS X 10.8.4 **tested**!
 
 - Sublime Text 2 with Windows 8 64bit **tested**!
 
@@ -85,6 +87,7 @@ API files is include the setting *keyword* such as `HTML`, `jQuery`, `myGlossary
   // `false` means load file and disable it
   "completion_active_list": {
     "HTML": false,
+    "Underscore": false,
     "jQuery": true,
     "JavaScript": true,
     "twitter-bootstrap": true
@@ -115,6 +118,10 @@ After you enable, disable or added new your own completions, you might need rest
   * http://overapi.com/javascript/
   * http://www.w3schools.com/js/
 
+* Underscore 1.5.1
+
+  * http://underscorejs.org/
+
 * Twitter Bootstrap Version 2.3.2
 
   * http://twitter.github.io/bootstrap/index.html
@@ -141,13 +148,15 @@ After you enable, disable or added new your own completions, you might need rest
 Open file `Packages/User/Preferences.sublime-settings` or click `Setting - User` from menu. In my case, I just setup the `auto_complete_triggers` property as follow:
 
 ```js
+{
   "auto_complete_triggers":
   [
     {
       "characters": "qazwsxedcrfvtgbyhnujmikolpQAZWSXEDCRFVTGBYHNUJMIKOLP",
       "selector": "text, source, meta, string, punctuation, constant"
     }
-  ],
+  ]
+}
 ```
 
 It will active most of scope triggers and most of characters.
