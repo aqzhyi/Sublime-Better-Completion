@@ -15,7 +15,8 @@
     "Underscore": false,
     "jQuery": true,
     "JavaScript": true,
-    "twitter-bootstrap": true
+    "twitter-bootstrap": true,
+    "twitter-bootstrap3": true
   },
   // --------------------
   // Enable your own APIs
