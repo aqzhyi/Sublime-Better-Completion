@@ -1,14 +1,22 @@
-## Sublime API Completions Package
+Sublime API Completions Package
+===============================
 
-This package aim at provide a simpler way to build own auto-completion.
+This package aim at provide a simpler way to build own auto-completions.
 
-**auto-completion** is lightweight, not complex, simpler than **snippets**.
+**auto-completion** is lightweight, easier, simpler than **snippets**.
 
-This package also provide several APIs completions such as JavaScript, jQuery API, Underscore API, HTML5 and Bootstrap Classes collect by me.
+This package also provide several APIs completions such as JavaScript API, jQuery API, Underscore API, HTML5 and Bootstrap Classes collect by me.
+
 
 ## Compatible
 
+2013/09
+
+- Sublime Text 3 with MAC OS X 10.8.4 **tested**!
+
 - Sublime Text 2 with MAC OS X 10.8.4 **tested**!
+
+2013/07
 
 - Sublime Text 2 with Windows 8 64bit **tested**!
 
@@ -58,7 +66,7 @@ This package also provide several APIs completions such as JavaScript, jQuery AP
   Simpler to build own API completions.
 
 * Compared with `*.sublime-completions` files:
-  
+
   * **speak in English**:
 
       It seems like when scope matched would be override completions provide by sublime itself. refer to issue #3.
@@ -79,7 +87,7 @@ API files is include the setting *keyword* such as `HTML`, `jQuery`, `myGlossary
   // --------------------
   // API files is include the setting *keyword* such as `HTML`, `jQuery`, `myGlossary` as filename `API-completions-${filename}.sublime-settings` place in `/packages/${this-package}/sublime-completions/` or `/packages/User/`.
   // After you enable, disable or added new your own completions, you might need restart your Sublime Text.
-  // 
+  //
   // --------------------
   // APIs Collected by github/Pleasurazy
   // --------------------

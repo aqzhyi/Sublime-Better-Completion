@@ -2,28 +2,25 @@
   // --------------------
   // sublime-API-Completions-Package
   // --------------------
-  // API files is include the setting *keyword* such as `HTML`, `jQuery`, `myGlossary` as filename `API-completions-${filename}.sublime-settings` place in `/packages/${this-package}/sublime-completions/` or `/packages/User/`.
-  // After you enable, disable or added new your own completions, you might need restart your Sublime Text.
-  // 
+  // API files is include the setting *keyword* such as `HTML`, `jQuery`, `myGlossary` as filename `API-completions-${filename}.sublime-settings` place in `/packages/User/` (good) or `/packages/${this-package}/sublime-completions/`.
+  // After you enable, disable or added new your own completions, you might need restart your Sublime Text Editor.
+  //
   // --------------------
-  // APIs Collected by github/Pleasurazy
+  // APIs Setup
   // --------------------
-  // `true` means load file and enable it
-  // `false` means load file and disable it
+  // `true` means enable it.
+  // `false` means disable it.
+  // `//` means disable it with code comment.
   "completion_active_list": {
     "HTML": false,
     "Underscore": false,
-    "jQuery": true,
-    "JavaScript": true,
-    "twitter-bootstrap": true
-  },
-  // --------------------
-  // Enable your own APIs
-  // --------------------
-  // `true` means load file and enable it
-  // `false` means load file and disable it, but didn't effect `completion_active_list` setting.
-  "completion_active_extend_list": {
-    // "myGlossary": true,
-    // "myAngularJS": true
+    "jQuery": false,
+    "JavaScript": false,
+    "twitter-bootstrap": false,
+    // Your own completions?
+    "myHTML": false,
+    "myAngularJS": false,
+    "myGlossary": false,
+    "myJavaScript": false
   }
 }

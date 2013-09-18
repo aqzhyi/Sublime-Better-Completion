@@ -1,0 +1,13 @@
+Sublime API Completions Package
+===============================
+
+How To USE
+==========
+
+This package APIs is **disabled** by default during the initial installation.
+
+So you need open `API-Completion-Package: Setting - User` and setup what the completion you wanna enable and finally you have to re-start your sublime text editor.
+
+
+For more information, please visit:
+	https://github.com/Pleasurazy/Sublime-API-Completions
