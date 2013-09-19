@@ -15,6 +15,7 @@
     "HTML": false,
     "Underscore": false,
     "jQuery": false,
+    "jQuery-SQ": false, // Single Quote
     "JavaScript": false,
     "twitter-bootstrap": false,
     "twitter-bootstrap3": false,
