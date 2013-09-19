@@ -6,14 +6,17 @@ class PleasurazyAPICompletionsPackage():
   def init(self):
     self.api = {}
     self.settings = sublime.load_settings('sublime-API-Completions-Package.sublime-settings')
+    self.API_Setup = self.settings.get('completion_active_list')
 
     # Caching completions
-    for API_Keyword in self.settings.get('completion_active_list'):
-      self.api[API_Keyword] = sublime.load_settings('API-completions-' + API_Keyword + '.sublime-settings')
+    if self.API_Setup:
+      for API_Keyword in self.API_Setup:
+        self.api[API_Keyword] = sublime.load_settings('API-completions-' + API_Keyword + '.sublime-settings')
 
-    # Caching extended completions
-    for API_Keyword in self.settings.get('completion_active_extend_list'):
-      self.api[API_Keyword] = sublime.load_settings('API-completions-' + API_Keyword + '.sublime-settings')
+    # Caching extended completions(deprecated)
+    if self.settings.get('completion_active_extend_list'):
+      for API_Keyword in self.settings.get('completion_active_extend_list'):
+        self.api[API_Keyword] = sublime.load_settings('API-completions-' + API_Keyword + '.sublime-settings')
 
 
 
@@ -37,7 +40,7 @@ class PleasurazyAPICompletionsPackageEventListener(sublime_plugin.EventListener)
 
     for API_Keyword in pleasurazy.api:
       # If completion active
-      if pleasurazy.settings.get('completion_active_list').get(API_Keyword) or pleasurazy.settings.get('completion_active_extend_list').get(API_Keyword):
+      if (pleasurazy.API_Setup and pleasurazy.API_Setup.get(API_Keyword)) or (pleasurazy.settings.get('completion_active_extend_list') and pleasurazy.settings.get('completion_active_extend_list').get(API_Keyword)):
         scope = pleasurazy.api[API_Keyword].get('scope')
         if scope and view.match_selector(locations[0], scope):
           self.completions += pleasurazy.api[API_Keyword].get('completions')
@@ -45,6 +48,7 @@ class PleasurazyAPICompletionsPackageEventListener(sublime_plugin.EventListener)
     if not self.completions:
       return []
 
+    # extend word-completions to auto-completions
     compDefault = [view.extract_completions(prefix)]
     compDefault = [(item, item) for sublist in compDefault for item in sublist if len(item) > 3]
     compDefault = list(set(compDefault))
