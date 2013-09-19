@@ -1,4 +1,4 @@
-Sublime API Completions Package
+Sublime Better Completion Package
 ===============================
 
 手刻的浪漫
@@ -31,15 +31,15 @@ This package also provide several APIs completions such as JavaScript API, jQuer
 
 #### JavaScript and jQuery 1.9
 
-![](https://raw.github.com/Pleasurazy/Sublime-API-Completions/master/README/JavaScript-and-jQuery/demo1.gif)
+![](https://raw.github.com/Pleasurazy/Sublime-Better-Completion/master/README/JavaScript-and-jQuery/demo1.gif)
 
-![](https://raw.github.com/Pleasurazy/Sublime-API-Completions/master/README/JavaScript-and-jQuery/static3.jpg)
+![](https://raw.github.com/Pleasurazy/Sublime-Better-Completion/master/README/JavaScript-and-jQuery/static3.jpg)
 
 #### Twitter Bootstrap 2 and 3
 
-![](https://raw.github.com/Pleasurazy/Sublime-API-Completions/master/README/bootstrap-demo/demo1.gif)
+![](https://raw.github.com/Pleasurazy/Sublime-Better-Completion/master/README/bootstrap-demo/demo1.gif)
 
-![](https://raw.github.com/Pleasurazy/Sublime-API-Completions/master/README/bootstrap-demo/static3.jpg)
+![](https://raw.github.com/Pleasurazy/Sublime-Better-Completion/master/README/bootstrap-demo/static3.jpg)
 
 
 ## Why this package?
@@ -132,7 +132,7 @@ After you enable, disable or added new your own completions, you might need rest
 
 * Using **Package Control** to install.
 
-    ![](https://raw.github.com/Pleasurazy/Sublime-API-Completions/master/README/UsingPackageControl.jpg)
+    ![](https://raw.github.com/Pleasurazy/Sublime-Better-Completion/master/README/UsingPackageControl.jpg)
 
 * Waiting download.
 

@@ -1,4 +1,4 @@
-Sublime API Completions Package
+Sublime Better Completion Package
 ===============================
 
 How To USE
@@ -10,4 +10,4 @@ So you need open `API-Completion-Package: Setting - User` and setup what the com
 
 
 For more information, please visit:
-	https://github.com/Pleasurazy/Sublime-API-Completions
+	https://github.com/Pleasurazy/Sublime-Better-Completion

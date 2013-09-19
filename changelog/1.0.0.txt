@@ -3,7 +3,7 @@
 
   - Submit to Package Control Channel for Sublime Text 3.
   - Disabled all APIs by default during the initial installation.
-  - renamed Github repository to "Sublime-API-Completions" from "Sublime-JavaScript-API-Completions".
+  - renamed Github repository to "Sublime-Better-Completion" from "Sublime-JavaScript-API-Completions".
 
 
 
