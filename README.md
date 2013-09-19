@@ -137,6 +137,12 @@ After you enable, disable or added new your own completions, you might need rest
 
 * Happy programming.
 
+---
+
+* Manual Install Instructions
+
+    Please refer to Install_instructions.md.
+
 
 ## Relevant issues
 
