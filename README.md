@@ -12,11 +12,13 @@ This package also provide several APIs completions such as JavaScript API, jQuer
 
 ## Compatible
 
+Should be working fine with ST2 and ST3.
+
 2013/09
 
-- Sublime Text 3 with MAC OS X 10.8.4 **tested**!
+- Sublime Text 3 with MAC OS X 10.8.4 using Package Control **tested**!
 
-- Sublime Text 2 with MAC OS X 10.8.4 **tested**!
+- Sublime Text 2 with MAC OS X 10.8.4 using Package Control **tested**!
 
 2013/07
 
@@ -25,21 +27,6 @@ This package also provide several APIs completions such as JavaScript API, jQuer
 - Sublime Text 2 with Windows 7 32bit **tested**!
 
 - Sublime Text 3 with Windows 8 64bit **tested**!
-
-
-## APIs
-
-#### JavaScript and jQuery 1.9
-
-![](https://raw.github.com/Pleasurazy/Sublime-Better-Completion/master/README/JavaScript-and-jQuery/demo1.gif)
-
-![](https://raw.github.com/Pleasurazy/Sublime-Better-Completion/master/README/JavaScript-and-jQuery/static3.jpg)
-
-#### Twitter Bootstrap 2 and 3
-
-![](https://raw.github.com/Pleasurazy/Sublime-Better-Completion/master/README/bootstrap-demo/demo1.gif)
-
-![](https://raw.github.com/Pleasurazy/Sublime-Better-Completion/master/README/bootstrap-demo/static3.jpg)
 
 
 ## Why this package?
@@ -63,6 +50,21 @@ This package also provide several APIs completions such as JavaScript API, jQuer
     * **speak in Chinese**:
 
         一但 scope 匹配成功之後，雖然自製的 auto-completion 能夠順利工作；但是它也會覆蓋掉原本 word-completion。因此，只有在自製的辭彙的 scope 完全沒匹配時，才會正常地顯示原本的 word-completion，而不是將它們融合在一起顯示。
+
+
+## APIs
+
+#### JavaScript and jQuery 1.9
+
+![](https://raw.github.com/Pleasurazy/Sublime-Better-Completion/master/README/JavaScript-and-jQuery/demo1.gif)
+
+![](https://raw.github.com/Pleasurazy/Sublime-Better-Completion/master/README/JavaScript-and-jQuery/static3.jpg)
+
+#### Twitter Bootstrap 2 and 3
+
+![](https://raw.github.com/Pleasurazy/Sublime-Better-Completion/master/README/bootstrap-demo/demo1.gif)
+
+![](https://raw.github.com/Pleasurazy/Sublime-Better-Completion/master/README/bootstrap-demo/static3.jpg)
 
 
 ## Setting
@@ -134,15 +136,17 @@ After you enable, disable or added new your own completions, you might need rest
 
     ![](https://raw.github.com/Pleasurazy/Sublime-Better-Completion/master/README/UsingPackageControl.jpg)
 
-* Waiting download.
+    Waiting download.
 
-* Happy programming.
+    Happy programming.
 
 ---
 
 * Manual Install Instructions
 
-    Please refer to Install_instructions.md.
+    Please refer to [this-package/Install_instructions.md].
+
+[this-package/Install_instructions.md]: https://github.com/Pleasurazy/Sublime-Better-Completion/blob/master/Install_instructions.md
 
 
 ## Relevant issues
