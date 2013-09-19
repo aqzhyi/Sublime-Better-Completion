@@ -240,7 +240,7 @@
     // Deprecated in jQuery 1.3
     [ "boxModel\tjQueryDeprecated", "boxModel" ],
     [ "browser\tjQueryDeprecated", "browser" ], // Was removed in jQuery 1.9
-    
+
     // Deprecated in jQuery 1.7
     [ "isRejected\tjQueryDeprecated", "isRejected()" ],
     [ "isResolved\tjQueryDeprecated", "isResolved()" ],
