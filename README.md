@@ -89,7 +89,7 @@ API files is include the setting *keyword* such as `HTML`, `jQuery`, `myGlossary
     "jQuery": false,
     "JavaScript": false,
     "twitter-bootstrap": false,
-    "twitter-bootstrap3": false
+    "twitter-bootstrap3": false,
     // Your own completions?
     "myHTML": false,
     "myAngularJS": false,
