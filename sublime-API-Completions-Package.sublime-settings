@@ -19,6 +19,7 @@
     "JavaScript": false,
     "twitter-bootstrap": false,
     "twitter-bootstrap3": false,
+    "gruntjs-plugins": false,
     // Your own completions?
     "myHTML": false,
     "myAngularJS": false,
