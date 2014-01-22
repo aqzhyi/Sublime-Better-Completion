@@ -1,6 +1,6 @@
 {
   // Twitter Bootstrap Auto Completions for HTML Class Name.
-  "scope": "text.html string.quoted - source, source.jade string.name.classes.tag.jade",
+  "scope": "text.html string.quoted - source, source.jade string.name.classes.tag.jade, source.jade text.block.dot.tag.jade, source.jade tag.jade",
 
   "completions":
   [
