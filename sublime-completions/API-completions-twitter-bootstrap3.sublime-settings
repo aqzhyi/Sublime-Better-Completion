@@ -218,7 +218,6 @@
     [ "warning\tBootstrapClass", "warning" ],
     [ "danger\tBootstrapClass", "danger" ],
 
-    [ "form\tBootstrapClass", "form" ],
     [ "form-group\tBootstrapClass", "form-group" ],
     [ "form-control\tBootstrapClass", "form-control" ],
     [ "form-inline\tBootstrapClass", "form-inline" ],
@@ -233,9 +232,7 @@
     [ "has-error\tBootstrapClass", "has-error" ],
     [ "has-success\tBootstrapClass", "has-success" ],
     [ "help-block\tBootstrapClass", "help-block" ],
-    [ "input-xs\tBootstrapClass", "input-xs" ],
     [ "input-sm\tBootstrapClass", "input-sm" ],
-    [ "input-md\tBootstrapClass", "input-md" ],
     [ "input-lg\tBootstrapClass", "input-lg" ],
 
     [ "btn\tBootstrapClass", "btn" ],
@@ -248,7 +245,6 @@
     [ "btn-link\tBootstrapClass", "btn-link" ],
     [ "btn-xs\tBootstrapClass", "btn-xs" ],
     [ "btn-sm\tBootstrapClass", "btn-sm" ],
-    [ "btn-md\tBootstrapClass", "btn-md" ],
     [ "btn-lg\tBootstrapClass", "btn-lg" ],
     [ "btn-block\tBootstrapClass", "btn-block" ],
 
@@ -284,7 +280,6 @@
     [ "btn-group\tBootstrapClass", "btn-group" ],
     [ "btn-group-xs\tBootstrapClass", "btn-group-xs" ],
     [ "btn-group-sm\tBootstrapClass", "btn-group-sm" ],
-    [ "btn-group-md\tBootstrapClass", "btn-group-md" ],
     [ "btn-group-lg\tBootstrapClass", "btn-group-lg" ],
     [ "btn-toolbar\tBootstrapClass", "btn-toolbar" ],
     [ "dropup\tBootstrapClass", "dropup" ],
@@ -320,9 +315,7 @@
 
     [ "breadcrumb\tBootstrapClass", "breadcrumb" ],
     [ "pagination\tBootstrapClass", "pagination" ],
-    [ "pagination-xs\tBootstrapClass", "pagination-xs" ],
     [ "pagination-sm\tBootstrapClass", "pagination-sm" ],
-    [ "pagination-md\tBootstrapClass", "pagination-md" ],
     [ "pagination-lg\tBootstrapClass", "pagination-lg" ],
 
     [ "pager\tBootstrapClass", "pager" ],
@@ -385,9 +378,7 @@
     [ "panel-danger\tBootstrapClass", "panel-danger" ],
 
     [ "well\tBootstrapClass", "well" ],
-    [ "well-xs\tBootstrapClass", "well-xs" ],
     [ "well-sm\tBootstrapClass", "well-sm" ],
-    [ "well-md\tBootstrapClass", "well-md" ],
     [ "well-lg\tBootstrapClass", "well-lg" ],
 
     [ "modal\tBootstrapClass", "modal" ],
@@ -401,23 +392,17 @@
     [ "tab-content\tBootstrapClass", "tab-content" ],
     [ "tab-pane\tBootstrapClass", "tab-pane" ],
 
-    [ "accordion-toggle\tBootstrapClass", "accordion-toggle" ],
-
     [ "collapse\tBootstrapClass", "collapse" ],
     [ "panel-collapse\tBootstrapClass", "panel-collapse" ],
     [ "navbar-collapse\tBootstrapClass", "navbar-collapse" ],
-    [ "navbar-ex1-collapse\tBootstrapClass", "navbar-ex1-collapse" ],
 
     [ "carousel\tBootstrapClass", "carousel" ],
     [ "carousel-indicators\tBootstrapClass", "carousel-indicators" ],
     [ "carousel-inner\tBootstrapClass", "carousel-inner" ],
     [ "carousel-caption\tBootstrapClass", "carousel-caption" ],
     [ "carousel-control\tBootstrapClass", "carousel-control" ],
-    [ "left\tBootstrapClass", "left" ],
-    [ "right\tBootstrapClass", "right" ],
     [ "icon-prev\tBootstrapClass", "icon-prev" ],
     [ "icon-next\tBootstrapClass", "icon-next" ],
-    [ "slide\tBootstrapClass", "slide" ],
 
     [ "fade\tBootstrapClass", "fade" ],
     [ "in\tBootstrapClass", "in" ],
