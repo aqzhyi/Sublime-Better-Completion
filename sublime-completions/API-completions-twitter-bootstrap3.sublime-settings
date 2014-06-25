@@ -259,6 +259,7 @@
     [ "close\tBootstrapClass", "close" ],
     [ "pull-left\tBootstrapClass", "pull-left" ],
     [ "pull-right\tBootstrapClass", "pull-right" ],
+    [ "center-block\tBootstrapClass", "center-block"],
     [ "clearfix\tBootstrapClass", "clearfix" ],
     [ "sr-only\tBootstrapClass", "sr-only" ],
     [ "img-responsive\tBootstrapClass", "img-responsive" ],
