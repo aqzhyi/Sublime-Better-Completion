@@ -1,0 +1,7 @@
+1.2.0-2014-08-05
+=================
+
+  - Organized package files naming convention.
+    If you installed this package before, you might need to reset your setting file.
+
+  - Added PHP API.

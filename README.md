@@ -14,6 +14,10 @@ This package also provide several APIs completions such as JavaScript API, jQuer
 
 Should be working fine with ST2 and ST3.
 
+2014/08
+
+- Sublime Text 3 with MAC OS X 10.9.4 manual installed **tested**!
+
 2013/09
 
 - Sublime Text 3 with MAC OS X 10.8.4 using Package Control **tested**!
@@ -43,11 +47,11 @@ Should be working fine with ST2 and ST3.
 
     This package will avoid `*.sublime-completions` override word-completion wrongly:
 
-    * **speak in English**:
+    * **In English**:
 
         It seems like when scope matched would be override word-completions provide by sublime itself. refer to issue#3.
 
-    * **speak in Chinese**:
+    * **In Chinese**:
 
         一但 scope 匹配成功之後，雖然自製的 auto-completion 能夠順利工作；但是它也會覆蓋掉原本 word-completion。因此，只有在自製的辭彙的 scope 完全沒匹配時，才會正常地顯示原本的 word-completion，而不是將它們融合在一起顯示。
 
@@ -69,35 +73,42 @@ Should be working fine with ST2 and ST3.
 
 ## Setting
 
-API files is include the setting *keyword* such as `HTML`, `jQuery`, `myGlossary` as filename `API-completions-${filename}.sublime-settings` place in `/packages/User/` (good) or `/packages/${this-package}/sublime-completions/`.
+API files is contains the *keyword* such as `html`, `jquery`, `myglossary` with lowercase as filename `sublime-better-completion-api-${filename}.sublime-settings` place in `/packages/User/` (your own) or `/packages/${this-package}/sublime-completions/` (package build-in).
 
-```js
+```json
+{
 {
   // --------------------
-  // sublime-API-Completions-Package
+  // sublime-better-completions-Package
   // --------------------
-  // API files is include the setting *keyword* such as `HTML`, `jQuery`, `myGlossary` as filename `API-completions-${filename}.sublime-settings` place in `/packages/User/` (good) or `/packages/${this-package}/sublime-completions/`.
+  // API files is contains the *keyword* such as `html`, `jquery`, `myglossary` with lowercase as filename `sublime-better-completion-api-${filename}.sublime-settings` place in `/packages/User/` (your own) or `/packages/${this-package}/sublime-completions/` (package build-in).
   // After you enable, disable or added new your own completions, you might need restart your Sublime Text Editor.
+  //
+  // Your own setting file `sublime-better-completion-setting.sublime-settings` need to place in `/packages/User/` and contains all your api setting property that you want to enable.
   //
   // --------------------
   // APIs Setup
   // --------------------
   // `true` means enable it.
   // `false` means disable it.
-  // `//` means disable it with code comment.
   "completion_active_list": {
-    "HTML": false,
-    "Underscore": false,
-    "jQuery": false,
-    "jQuery-SQ": false, // Single Quote
-    "JavaScript": false,
+    // build-in completions
+    "gruntjs-plugins": false,
+    "html": false,
+    "javascript": false,
+    "jquery": false,
+    "jquery-sq": false, // Single Quote
+    "php": false,
+    "phpci": false,
     "twitter-bootstrap": false,
     "twitter-bootstrap3": false,
+    "underscorejs": false,
+
     // Your own completions?
-    "myHTML": false,
-    "myAngularJS": false,
-    "myGlossary": false,
-    "myJavaScript": false
+    "my-angularjs": false,
+    "my-glossary": false,
+    "my-html": false,
+    "my-javascript": false
   }
 }
 ```

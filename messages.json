@@ -1,4 +1,5 @@
 {
   "install": "changelog/install.txt",
-  "1.0.0": "changelog/1.0.0.txt"
+  "1.0.0": "changelog/1.0.0.txt",
+  "1.2.0": "changelog/1.2.0.txt"
 }
