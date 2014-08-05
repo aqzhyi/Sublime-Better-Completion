@@ -5,18 +5,18 @@ import string
 class PleasurazyAPICompletionsPackage():
   def init(self):
     self.api = {}
-    self.settings = sublime.load_settings('sublime-API-Completions-Package.sublime-settings')
+    self.settings = sublime.load_settings('sublime-better-completion-setting.sublime-settings')
     self.API_Setup = self.settings.get('completion_active_list')
 
     # Caching completions
     if self.API_Setup:
       for API_Keyword in self.API_Setup:
-        self.api[API_Keyword] = sublime.load_settings('API-completions-' + API_Keyword + '.sublime-settings')
+        self.api[API_Keyword] = sublime.load_settings('sublime-better-completion-api-' + API_Keyword + '.sublime-settings')
 
     # Caching extended completions(deprecated)
     if self.settings.get('completion_active_extend_list'):
       for API_Keyword in self.settings.get('completion_active_extend_list'):
-        self.api[API_Keyword] = sublime.load_settings('API-completions-' + API_Keyword + '.sublime-settings')
+        self.api[API_Keyword] = sublime.load_settings('sublime-better-completion-api-' + API_Keyword + '.sublime-settings')
 
 
 

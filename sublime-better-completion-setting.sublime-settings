@@ -1,0 +1,33 @@
+{
+  // --------------------
+  // sublime-better-completions-Package
+  // --------------------
+  // API files is contains the *keyword* such as `html`, `jquery`, `myglossary` with lowercase as filename `sublime-better-completion-api-${filename}.sublime-settings` place in `/packages/User/` (your own) or `/packages/${this-package}/sublime-completions/` (package build-in).
+  // After you enable, disable or added new your own completions, you might need restart your Sublime Text Editor.
+  //
+  // Your own setting file `sublime-better-completion-setting.sublime-settings` need to place in `/packages/User/` and contains all your api setting property that you want to enable.
+  //
+  // --------------------
+  // APIs Setup
+  // --------------------
+  // `true` means enable it.
+  // `false` means disable it.
+  "completion_active_list": {
+    // build-in completions
+    "gruntjs-plugins": false,
+    "html": false,
+    "javascript": false,
+    "jquery": false,
+    "jquery-sq": false, // Single Quote
+    "php": false,
+    "twitter-bootstrap": false,
+    "twitter-bootstrap3": false,
+    "underscorejs": false,
+
+    // Your own completions?
+    "my-angularjs": false,
+    "my-glossary": false,
+    "my-html": false,
+    "my-javascript": false
+  }
+}
