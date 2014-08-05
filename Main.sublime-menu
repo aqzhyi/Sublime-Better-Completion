@@ -28,12 +28,12 @@
               { "caption": "-" },
               {
                 "command": "open_file",
-                "args": {"file": "${packages}/Sublime-Better-Completion/sublime-API-Completions-Package.sublime-settings"},
+                "args": {"file": "${packages}/Sublime-Better-Completion/sublime-better-completion-setting.sublime-settings"},
                 "caption": "Settings – Default"
               },
               {
                 "command": "open_file",
-                "args": {"file": "${packages}/User/sublime-API-Completions-Package.sublime-settings"},
+                "args": {"file": "${packages}/User/sublime-better-completion-setting.sublime-settings"},
                 "caption": "Settings – User"
               },
               { "caption": "-" }
