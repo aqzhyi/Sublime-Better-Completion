@@ -77,7 +77,6 @@ API files is contains the *keyword* such as `html`, `jquery`, `myglossary` with 
 
 ```json
 {
-{
   // --------------------
   // sublime-better-completions-Package
   // --------------------
