@@ -1,16 +1,16 @@
 [
   {
-    "caption": "API-Completion-Package: Open Github project url",
+    "caption": "Sublime-Better-Completions: Open Github project url",
     "args": {"url": "http://github.com/Pleasurazy/Sublime-Better-Completion"},
     "command": "open_url"
   },
   {
-    "caption": "API-Completion-Package: Settings – Default",
+    "caption": "Sublime-Better-Completions: Settings – Default",
     "args": {"file": "${packages}/Sublime-Better-Completion/sublime-better-completion-setting.sublime-settings"},
     "command": "open_file"
   },
   {
-    "caption": "API-Completion-Package: Settings – User",
+    "caption": "Sublime-Better-Completions: Settings – User",
     "args": {"file": "${packages}/User/sublime-better-completion-setting.sublime-settings"},
     "command": "open_file"
   }
