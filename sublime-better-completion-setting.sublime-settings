@@ -20,6 +20,7 @@
     "jquery": false,
     "jquery-sq": false, // Single Quote
     "php": false,
+    "phpci": false,
     "twitter-bootstrap": false,
     "twitter-bootstrap3": false,
     "underscorejs": false,
