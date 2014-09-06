@@ -9,6 +9,12 @@ This package aim at provide a simpler way to build own auto-completions and avoi
 
 This package also provide several APIs completions such as JavaScript API, jQuery API, Underscore API, HTML5 and Bootstrap Classes collect by me.
 
+# Changes
+- Removed BS2 completion.
+- Added some new class completion for BS3.
+- Instead of the long name its just `sbc` now.
+- Fixed scope for jquery-sq.
+- The menu items are now more straight farword.
 
 ## Compatible
 

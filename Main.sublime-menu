@@ -1,46 +1,41 @@
 [
   {
     "caption": "Preferences",
-    "mnemonic": "n",
-    "id": "preferences",
-    "children":
-    [
+    "children": [
       {
         "caption": "Package Settings",
-        "mnemonic": "P",
-        "id": "package-settings",
-        "children":
-        [
+        "children": [
           {
             "caption": "Sublime Better Completion Package",
-            "children":
-            [
+            "children": [
               {
-                "command": "open_url",
-                "args": {"url": "http://github.com/Pleasurazy/Sublime-Better-Completion"},
-                "caption": "Fork me on Github"
+                "caption": "-"
               },
               {
-                "command": "open_url",
-                "args": {"url": "http://github.com/Pleasurazy/Sublime-Better-Completion"},
-                "caption": "http://github.com/Pleasurazy"
-              },
-              { "caption": "-" },
-              {
-                "command": "open_file",
-                "args": {"file": "${packages}/Sublime-Better-Completion/sublime-better-completion-setting.sublime-settings"},
-                "caption": "Settings – Default"
+                "args": {
+                  "file": "${packages}/Sublime-Better-Completion/sbc-setting.sublime-settings"
+                },
+                "caption": "Settings \u2013 Default",
+                "command": "open_file"
               },
               {
-                "command": "open_file",
-                "args": {"file": "${packages}/User/sublime-better-completion-setting.sublime-settings"},
-                "caption": "Settings – User"
+                "args": {
+                  "file": "${packages}/User/sbc-setting.sublime-settings"
+                },
+                "caption": "Settings \u2013 User",
+                "command": "open_file"
               },
-              { "caption": "-" }
+              {
+                "caption": "-"
+              }
             ]
           }
-        ]
+        ],
+        "id": "package-settings",
+        "mnemonic": "P"
       }
-    ]
+    ],
+    "id": "preferences",
+    "mnemonic": "n"
   }
 ]
