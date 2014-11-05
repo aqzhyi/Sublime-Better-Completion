@@ -5,6 +5,7 @@
   "completions":
   [
     [ "container\tBootstrapClass", "container" ],
+    [ "container-fluid\tBootstrapClass", "container-fluid" ],
     [ "row\tBootstrapClass", "row" ],
 
     [ "bg-danger\tBootstrapClass", "bg-danger" ],

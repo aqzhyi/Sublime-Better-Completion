@@ -1,6 +1,6 @@
 {
   // SQ means Single Quote
-  "scope": "source.js - string, source.coffee, source.js.embedded.html",
+  "scope": "source.js - string.quoted.single.js, source.coffee, source.js.embedded.html",
 
   // Deprecated Source : http://api.jquery.com/category/deprecated/
   // Source            : http://oscarotero.com/jquery/

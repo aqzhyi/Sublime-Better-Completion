@@ -1,0 +1,9 @@
+[
+  {
+    "args": {
+      "file": "${packages}/User/sbc-setting.sublime-settings"
+    },
+    "caption": "SBC: Settings \u2013 User",
+    "command": "open_file"
+  }
+]
