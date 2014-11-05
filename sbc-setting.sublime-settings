@@ -21,10 +21,14 @@
     "jquery-sq": false, // Single Quote
     "php": false,
     "phpci": false,
+    "twitter-bootstrap": false,
     "twitter-bootstrap3": false,
     "underscorejs": false,
 
     // Your own completions?
-    "MyBS3": false,
+    "my-angularjs": false,
+    "my-glossary": false,
+    "my-html": false,
+    "my-javascript": false
   }
 }

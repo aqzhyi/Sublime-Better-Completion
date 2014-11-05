@@ -1,0 +1,36 @@
+1.0.0-2013.09.18
+=================
+
+  - Submit to Package Control Channel for Sublime Text 3.
+  - Disabled all APIs by default during the initial installation.
+  - renamed Github repository to "Sublime-Better-Completion" from "Sublime-JavaScript-API-Completions".
+
+
+
+1.0.0-2013.08.18
+=================
+
+  - Added UnderscoreJS API completions. (isEnable: false)
+  - Sublime Text 2 with MAC OS X 10.8.4 has been tested!
+
+Addition information
+====================
+
+  > How to trigger completion hint when every typing?
+
+  Please refer to https://github.com/Pleasurazy/Sublime-JavaScript-API-Completions#relevant-issues
+  or Read the README.md
+
+
+
+1.0.0-initial
+=================
+
+  - Using sublime plugin API to refactor package.
+  - Include JavaScript API completions
+  - Include ver 1.9 jQuery API completions
+  - Include ver 2.3.2 Twitch Bootstrap Class completions
+
+------------------------------
+Fork me on Github: http://github.com/Pleasurazy/Sublime-JavaScript-API-Completions
+------------------------------

@@ -9,13 +9,6 @@ This package aim at provide a simpler way to build own auto-completions and avoi
 
 This package also provide several APIs completions such as JavaScript API, jQuery API, Underscore API, HTML5 and Bootstrap Classes collect by me.
 
-# Changes
-- Removed BS2 completion.
-- Added some new class completion for BS3.
-- Instead of the long name its just `sbc` now.
-- Fixed scope for jquery-sq.
-- The menu items are now more straight farword.
-
 ## Compatible
 
 Should be working fine with ST2 and ST3.
@@ -79,7 +72,7 @@ Should be working fine with ST2 and ST3.
 
 ## Setting
 
-API files is contains the *keyword* such as `html`, `jquery`, `myglossary` with lowercase as filename `sublime-better-completion-api-${filename}.sublime-settings` place in `/packages/User/` (your own) or `/packages/${this-package}/sublime-completions/` (package build-in).
+Make your own API files that contains *keyword* such as `html`, `jquery`, `myglossary` as filename `sbc-api-${filename}.sublime-settings` and place them in `/packages/User/`.
 
 ```json
 {

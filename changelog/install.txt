@@ -6,7 +6,7 @@ How To USE
 
 This package APIs is **disabled** by default during the initial installation.
 
-So you need open `API-Completion-Package: Setting - User` and setup what the completion you wanna enable and finally you have to re-start your sublime text editor.
+So Go-To "Packages->Sublime-Better-Completion->Settings - Default" copy and enable the one you want in "Packages->Sublime-Better-Completion->Settings - User" and finally you have to re-start your sublime text editor.
 
 
 For more information, please visit:

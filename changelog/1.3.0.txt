@@ -1,0 +1,7 @@
+1.3.0-2014-11-05
+=================
+
+  - Added some new class completion for BS3.
+  - Instead of the long name its just `sbc` now.
+  - Fixed scope for jquery-sq.
+  - The menu items are now more straight forward.
