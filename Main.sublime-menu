@@ -13,7 +13,7 @@
                             },
                             {
                                 "args": {
-                                    "file": "${packages}/Sublime-Better-Completion/sbc-setting.sublime-settings"
+                                    "file": "${packages}/Better Completion/sbc-setting.sublime-settings"
                                 },
                                 "caption": "Settings \u2013 Default",
                                 "command": "open_file"
