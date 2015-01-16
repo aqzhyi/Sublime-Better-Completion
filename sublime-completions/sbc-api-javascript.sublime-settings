@@ -331,6 +331,7 @@
     [ "getAttributeNS\tjsDOM", "getAttributeNS" ],
     [ "getAttributeNode\tjsDOM", "getAttributeNode" ],
     [ "getAttributeNodeNS\tjsDOM", "getAttributeNodeNS" ],
+    [ "getElementsByName\tjsDOM", "getElementsByName" ],
     [ "getElementsByTagName\tjsDOM", "getElementsByTagName" ],
     [ "getElementsByTagNameNS\tjsDOM", "getElementsByTagNameNS" ],
     [ "getElementsByClassName\tjsDOM", "getElementsByClassName" ],
