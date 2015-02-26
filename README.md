@@ -169,7 +169,7 @@ After you enable, disable or added new your own completions, you might need rest
 
     Waiting download.
 
-    <kbt>CTRL+SHIFT+P</kbt> or <kbt>CMD+SHIFT+P</kbt> to open user setting file
+    <kbd>CTRL+SHIFT+P</kbd> or <kbd>CMD+SHIFT+P</kbd> type in `sbc settings user` to open user setting file
 
     Paste setting json. (see Setting section)
 
