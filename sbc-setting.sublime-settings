@@ -1,6 +1,6 @@
 {
   // --------------------
-  // sublime-better-completions-Package
+  // sublime-better-completions-Package (sbc package)
   // --------------------
   // API files is contains the *keyword* such as `html`, `jquery`, `myglossary` with lowercase as filename `sbc-api-${filename}.sublime-settings` place in `/packages/User/` (your own) or `/packages/${this-package}/sublime-completions/` (package build-in).
   // After you enable, disable or added new your own completions, you might need restart your Sublime Text Editor.
@@ -25,14 +25,21 @@
     "phpci": false,
     "sql": false,
     "twitter-bootstrap": false,
-    "twitter-bootstrap3": false,
     "twitter-bootstrap-less-variables": false,
+    "twitter-bootstrap3": false,
     "underscorejs": false,
 
     // Your own completions?
+    // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-angularjs.sublime-settings
     "my-angularjs": false,
+
+    // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-glossary.sublime-settings
     "my-glossary": false,
+
+    // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-html.sublime-settings
     "my-html": false,
+
+    // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-javascript.sublime-settings
     "my-javascript": false
   }
 }
