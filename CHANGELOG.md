@@ -1,3 +1,17 @@
+<a name="2015-02-26T16:16:35.947Z"></a>
+# 2015-02-26T16:16:35.947Z (2015-02-27)
+
+
+## Bug Fixes
+
+- **api:** missing javascript api
+  ([786d785b](https://github.com/Pleasurazy/Sublime-Better-Completion/commit/786d785b2e79465b145df84e2fabca0ed526cefb))
+
+
+## Breaking Changes
+
+
+
 <a name="2015-02-26T16:11:59.489Z"></a>
 # 2015-02-26T16:11:59.489Z (2015-02-27)
 
