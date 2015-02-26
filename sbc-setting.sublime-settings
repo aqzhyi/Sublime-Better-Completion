@@ -16,6 +16,7 @@
     // build-in completions
     "gruntjs-plugins": false,
     "html": false,
+    "lodash": false,
     "javascript": false,
     "jquery": false,
     "jquery-sq": false, // Single Quote
