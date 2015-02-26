@@ -23,6 +23,7 @@
     "phpci": false,
     "twitter-bootstrap": false,
     "twitter-bootstrap3": false,
+    "twitter-bootstrap-less-variables": false,
     "underscorejs": false,
 
     // Your own completions?
