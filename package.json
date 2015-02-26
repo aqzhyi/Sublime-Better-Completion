@@ -1,0 +1,23 @@
+{
+  "name": "Sublime-Better-Completion changelog",
+  "version": "1.0.0",
+  "description": "for generate changelog",
+  "main": "changelog.js",
+  "dependencies": {},
+  "devDependencies": {
+    "qq": "^0.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pleasurazy/Sublime-Better-Completion"
+  },
+  "author": "",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/Pleasurazy/Sublime-Better-Completion/issues"
+  },
+  "homepage": "https://github.com/Pleasurazy/Sublime-Better-Completion"
+}
