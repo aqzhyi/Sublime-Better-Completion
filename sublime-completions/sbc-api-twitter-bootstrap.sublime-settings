@@ -14,10 +14,16 @@
     [ "text-right\tBootstrapClass", "text-right" ],
 
     [ "muted\tBootstrapClass", "muted" ],
+    [ "text-primary\tBootstrapClass", "text-primary" ],
     [ "text-warning\tBootstrapClass", "text-warning" ],
     [ "text-error\tBootstrapClass", "text-error" ],
     [ "text-info\tBootstrapClass", "text-info" ],
     [ "text-success\tBootstrapClass", "text-success" ],
+    [ "bg-primary\tBootstrapClass", "bg-primary" ],
+    [ "bg-warning\tBootstrapClass", "bg-warning" ],
+    [ "bg-error\tBootstrapClass", "bg-error" ],
+    [ "bg-info\tBootstrapClass", "bg-info" ],
+    [ "bg-success\tBootstrapClass", "bg-success" ],
     [ "initialism\tBootstrapClass", "initialism" ],
 
     [ "unstyled\tBootstrapClass", "unstyled" ],
