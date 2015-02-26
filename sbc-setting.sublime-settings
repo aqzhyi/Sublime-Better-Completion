@@ -14,6 +14,7 @@
   // `false` means disable it.
   "completion_active_list": {
     // build-in completions
+    "css-properties": false,
     "gruntjs-plugins": false,
     "html": false,
     "lodash": false,
