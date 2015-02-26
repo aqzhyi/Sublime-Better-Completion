@@ -7,11 +7,16 @@ This package aim at provide a simpler way to build own auto-completions and avoi
 
 **auto-completion** is lightweight, easier, simpler than **snippets**.
 
-This package also provide several APIs completions such as JavaScript API, jQuery API, Underscore API, HTML5 and Bootstrap Classes collect by me.
+This package also provide several APIs completions such as JavaScript, jQuery, Lodash, Underscore, HTML5, CSS3 and Bootstrap Classes collect by me.
+
 
 ## Compatible
 
 Should be working fine with ST2 and ST3.
+
+2015/02
+
+- Sublime Text 3 with MAC OS X 10.10.2 using Package Control **tested**! (create new user on OS X)
 
 2014/08
 
@@ -52,10 +57,12 @@ Should be working fine with ST2 and ST3.
 
     * **In Chinese**:
 
-        一但 scope 匹配成功之後，雖然自製的 auto-completion 能夠順利工作；但是它也會覆蓋掉原本 word-completion。因此，只有在自製的辭彙的 scope 完全沒匹配時，才會正常地顯示原本的 word-completion，而不是將它們融合在一起顯示。
+        一但 scope 匹配成功之後，自製的 auto-completion 雖然能夠順利工作；但是它也會覆蓋掉原本 word-completion。因此，只有在自製的辭彙的 scope 完全沒匹配時，才會正常地顯示原本的 word-completion，卻沒有將它們融合在一起顯示。這使得可被選擇的 completions 將會有所遺失。
 
 
-## APIs
+## Preview
+
+Support APIs see Setting section.
 
 #### JavaScript and jQuery 1.9
 
@@ -74,15 +81,15 @@ Should be working fine with ST2 and ST3.
 
 Make your own API files that contains *keyword* such as `html`, `jquery`, `myglossary` as filename `sbc-api-${filename}.sublime-settings` and place them in `/packages/User/`.
 
-```json
+```js
 {
   // --------------------
-  // sublime-better-completions-Package
+  // sublime-better-completions-Package (sbc package)
   // --------------------
-  // API files is contains the *keyword* such as `html`, `jquery`, `myglossary` with lowercase as filename `sublime-better-completion-api-${filename}.sublime-settings` place in `/packages/User/` (your own) or `/packages/${this-package}/sublime-completions/` (package build-in).
+  // API files is contains the *keyword* such as `html`, `jquery`, `myglossary` with lowercase as filename `sbc-api-${filename}.sublime-settings` place in `/packages/User/` (your own) or `/packages/${this-package}/sublime-completions/` (package build-in).
   // After you enable, disable or added new your own completions, you might need restart your Sublime Text Editor.
   //
-  // Your own setting file `sublime-better-completion-setting.sublime-settings` need to place in `/packages/User/` and contains all your api setting property that you want to enable.
+  // Your own setting file `sbc-setting.sublime-settings` need to place in `/packages/User/` and contains all your api setting property that you want to enable.
   //
   // --------------------
   // APIs Setup
@@ -91,21 +98,32 @@ Make your own API files that contains *keyword* such as `html`, `jquery`, `myglo
   // `false` means disable it.
   "completion_active_list": {
     // build-in completions
+    "css-properties": false,
     "gruntjs-plugins": false,
     "html": false,
+    "lodash": false,
     "javascript": false,
     "jquery": false,
     "jquery-sq": false, // Single Quote
     "php": false,
     "phpci": false,
+    "sql": false,
     "twitter-bootstrap": false,
+    "twitter-bootstrap-less-variables": false,
     "twitter-bootstrap3": false,
     "underscorejs": false,
 
     // Your own completions?
+    // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-angularjs.sublime-settings
     "my-angularjs": false,
+
+    // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-glossary.sublime-settings
     "my-glossary": false,
+
+    // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-html.sublime-settings
     "my-html": false,
+
+    // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-javascript.sublime-settings
     "my-javascript": false
   }
 }
@@ -139,6 +157,10 @@ After you enable, disable or added new your own completions, you might need rest
 
     * http://devdocs.io/html-html5/
 
+* Lodash 3.3.0
+
+    * http://devdocs.io/lodash/
+
 ## Installation
 
 * Using **Package Control** to install.
@@ -146,6 +168,14 @@ After you enable, disable or added new your own completions, you might need rest
     ![](https://raw.github.com/Pleasurazy/Sublime-Better-Completion/master/README/UsingPackageControl.jpg)
 
     Waiting download.
+
+    <kbt>CTRL+SHIFT+P</kbt> or <kbt>CMD+SHIFT+P</kbt> to open user setting file
+
+    Paste setting json. (see Setting section)
+
+    Enable your favorite APIs.
+
+    Restart your sublime text app.
 
     Happy programming.
 
