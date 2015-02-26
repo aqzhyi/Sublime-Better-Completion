@@ -23,6 +23,7 @@
     "jquery-sq": false, // Single Quote
     "php": false,
     "phpci": false,
+    "sql": false,
     "twitter-bootstrap": false,
     "twitter-bootstrap3": false,
     "twitter-bootstrap-less-variables": false,
