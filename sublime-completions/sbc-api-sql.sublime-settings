@@ -649,7 +649,7 @@
 	[ "pg_try_advisory_xact_lock(key)\tAdvisory Lock"			, "pg_try_advisory_xact_lock(${1:key})" ],
 	[ "pg_try_advisory_xact_lock(key1, key2)\tAdvisory Lock"	, "pg_try_advisory_xact_lock(${1:key1}, ${2:key2})" ],
 	[ "pg_try_advisory_xact_lock_shared(key)\tAdvisory Lock"	, "pg_try_advisory_xact_lock_shared(${1:key})" ],
-	[ "pg_try_advisory_xact_lock_shared(key1, key2)\tAdvisory Lock", "pg_try_advisory_xact_lock_shared(${1:key1}, ${2:key2})" ],
+	[ "pg_try_advisory_xact_lock_shared(key1, key2)\tAdvisory Lock", "pg_try_advisory_xact_lock_shared(${1:key1}, ${2:key2})" ]
 
   ]
 }
