@@ -28,6 +28,7 @@
     "twitter-bootstrap-less-variables": false,
     "twitter-bootstrap3": false,
     "underscorejs": false,
+    "react": false,
 
     // Your own completions?
     // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-angularjs.sublime-settings
