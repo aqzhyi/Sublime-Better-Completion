@@ -1,0 +1,184 @@
+{
+  "scope": "source.js",
+
+  "completions":
+  [
+    // Top-level API
+    [ "React.Component\tReact", "React.Component" ],
+    [ "React.createElement\tReact", "React.createElement($0)" ],
+    [ "React.cloneElement\tReact", "React.cloneElement($0)" ],
+    [ "React.createFactory\tReact", "React.createFactory($0)" ],
+    [ "React.render\tReact", "React.render($0)" ],
+    [ "React.unmountComponentAtNode\tReact", "React.unmountComponentAtNode($0)" ],
+    [ "React.renderToString\tReact", "React.renderToString($0)" ],
+    [ "React.renderToStaticMarkup\tReact", "React.renderToStaticMarkup($0)" ],
+    [ "React.isValidElement\tReact", "React.isValidElement($0)" ],
+    [ "React.findDOMNode\tReact", "React.findDOMNode($0)" ],
+    [ "React.initializeTouchEvents\tReact", "React.initializeTouchEvents($0)" ],
+
+    [ "React.createClass\tReact (ES5 only)", "React.createClass({\n\t$0\n})" ],
+
+
+    // Children
+    [ "React.Children\tReact", "React.Children" ],
+
+    [ "Children.map\tReact", "Children.map($0)" ],
+    [ "Children.forEach\tReact", "Children.forEach($0)" ],
+    [ "Children.count\tReact", "Children.count($0)" ],
+    [ "Children.only\tReact", "Children.only($0)" ],
+
+
+    // PropTypes
+    [ "React.PropTypes\tReact", "React.PropTypes" ],
+
+    [ "PropTypes.any\tReact", "PropTypes.any" ],
+    [ "PropTypes.array\tReact", "PropTypes.array" ],
+    [ "PropTypes.bool\tReact", "PropTypes.bool" ],
+    [ "PropTypes.func\tReact", "PropTypes.func" ],
+    [ "PropTypes.number\tReact", "PropTypes.number" ],
+    [ "PropTypes.object\tReact", "PropTypes.object" ],
+    [ "PropTypes.string\tReact", "PropTypes.string" ],
+    [ "PropTypes.node\tReact", "PropTypes.node" ],
+    [ "PropTypes.element\tReact", "PropTypes.element" ],
+    [ "PropTypes.arrayOf\tReact", "PropTypes.arrayOf($0)" ],
+    [ "PropTypes.objectOf\tReact", "PropTypes.objectOf($0)" ],
+    [ "PropTypes.instanceOf\tReact", "PropTypes.instanceOf($0)" ],
+    [ "PropTypes.oneOf\tReact", "PropTypes.oneOf([ $0 ])" ],
+    [ "PropTypes.oneOfType\tReact", "PropTypes.oneOfType([ $0 ])" ],
+    [ "PropTypes.shape\tReact", "PropTypes.shape({ $0 })" ],
+
+    [ "isRequired\tReact", "isRequired" ],
+
+
+    // Component API
+    [ "this.setState\tReact", "this.setState($0)" ],
+    [ "this.replaceState\tReact", "this.replaceState($0)" ],
+    [ "this.forceUpdate\tReact", "this.forceUpdate($0)" ],
+
+    [ "this.isMounted\tReact (ES5 only)", "this.isMounted()$0" ],
+    [ "this.setProps\tReact (ES5 only)", "this.setProps($0)" ],
+    [ "this.replaceProps\tReact (ES5 only)", "this.replaceProps($0)" ],
+
+    [ "this.getDOMNode\tReact (Deprecated)", "this.getDOMNode()$0" ],
+
+
+    // Component specs
+    [ "render\tReact", "render() {\n\t$0\n}" ],
+    [ "defaultProps\tReact", "defaultProps" ],
+    [ "propTypes\tReact", "propTypes" ],
+    [ "statics\tReact", "statics" ],
+    [ "displayName\tReact", "displayName" ],
+
+    [ "mixins\tReact (ES5 only)", "mixins" ],
+    [ "getInitialState\tReact (ES5 only)", "getInitialState() {\n\t$0\n}" ],
+    [ "getDefaultProps\tReact (ES5 only)", "getDefaultProps() {\n\t$0\n}" ],
+
+
+    // Lifecycle methods
+    [ "componentWillMount\tReact", "componentWillMount() {\n\t$0\n}" ],
+    [ "componentDidMount\tReact", "componentDidMount() {\n\t$0\n}" ],
+    [ "componentWillReceiveProps\tReact", "componentWillReceiveProps(nextProps) {\n\t$0\n}" ],
+    [ "shouldComponentUpdate\tReact", "shouldComponentUpdate(nextProps, nextState) {\n\t$0\n}" ],
+    [ "componentWillUpdate\tReact", "componentWillUpdate(nextProps, nextState) {\n\t$0\n}" ],
+    [ "componentDidUpdate\tReact", "componentDidUpdate(prevProps, prevState) {\n\t$0\n}" ],
+    [ "componentWillUnmount\tReact", "componentWillUnmount() {\n\t$0\n}" ],
+
+
+    // Synthetic events
+    [ "onCopy\tSyntheticEvent", "onCopy" ],
+    [ "onCut\tSyntheticEvent", "onCut" ],
+    [ "onPaste\tSyntheticEvent", "onPaste" ],
+
+    [ "onKeyDown\tSyntheticEvent", "onKeyDown" ],
+    [ "onKeyPress\tSyntheticEvent", "onKeyPress" ],
+    [ "onKeyUp\tSyntheticEvent", "onKeyUp" ],
+
+    [ "onFocus\tSyntheticEvent", "onFocus" ],
+    [ "onBlur\tSyntheticEvent", "onBlur" ],
+
+    [ "onChange\tSyntheticEvent", "onChange" ],
+    [ "onInput\tSyntheticEvent", "onInput" ],
+    [ "onSubmit\tSyntheticEvent", "onSubmit" ],
+
+    [ "onClick\tSyntheticEvent", "onClick" ],
+    [ "onContextMenu\tSyntheticEvent", "onContextMenu" ],
+    [ "onDoubleClick\tSyntheticEvent", "onDoubleClick" ],
+    [ "onDrag\tSyntheticEvent", "onDrag" ],
+    [ "onDragEnd\tSyntheticEvent", "onDragEnd" ],
+    [ "onDragEnter\tSyntheticEvent", "onDragEnter" ],
+    [ "onDragExit\tSyntheticEvent", "onDragExit" ],
+    [ "onDragLeave\tSyntheticEvent", "onDragLeave" ],
+    [ "onDragOver\tSyntheticEvent", "onDragOver" ],
+    [ "onDragStart\tSyntheticEvent", "onDragStart" ],
+    [ "onDrop\tSyntheticEvent", "onDrop" ],
+    [ "onMouseDown\tSyntheticEvent", "onMouseDown" ],
+    [ "onMouseEnter\tSyntheticEvent", "onMouseEnter" ],
+    [ "onMouseLeave\tSyntheticEvent", "onMouseLeave" ],
+    [ "onMouseMove\tSyntheticEvent", "onMouseMove" ],
+    [ "onMouseOut\tSyntheticEvent", "onMouseOut" ],
+    [ "onMouseOver\tSyntheticEvent", "onMouseOver" ],
+    [ "onMouseUp\tSyntheticEvent", "onMouseUp" ],
+
+    [ "onTouchCancel\tSyntheticEvent", "onTouchCancel" ],
+    [ "onTouchEnd\tSyntheticEvent", "onTouchEnd" ],
+    [ "onTouchMove\tSyntheticEvent", "onTouchMove" ],
+    [ "onTouchStart\tSyntheticEvent", "onTouchStart" ],
+
+    [ "onScroll\tSyntheticEvent", "onScroll" ],
+
+    [ "onWheel\tSyntheticEvent", "onWheel" ],
+
+
+    // Event attributes
+    [ "e.bubbles\tboolean", "e.bubbles" ],
+    [ "e.cancelable\tboolean", "e.cancelable" ],
+    [ "e.currentTarget\tDOMEventTarget", "e.currentTarget" ],
+    [ "e.defaultPrevented\tboolean", "e.defaultPrevented" ],
+    [ "e.eventPhase\tNumber", "e.eventPhase" ],
+    [ "e.isTrusted\tboolean", "e.isTrusted" ],
+    [ "e.nativeEvent\tDOMEvent", "e.nativeEvent" ],
+    [ "e.preventDefault\tfunction", "e.preventDefault()$0" ],
+    [ "e.stopPropagation\tfunction", "e.stopPropagation()$0" ],
+    [ "e.target\tDOMEventTarget", "e.target" ],
+    [ "e.timeStamp\tNumber", "e.timeStamp" ],
+    [ "e.type\tString", "e.type" ],
+
+    [ "e.clipboardData\tDOMDataTransfer", "e.clipboardData" ],
+
+    [ "e.altKey\tboolean", "e.altKey" ],
+    [ "e.charCode\tNumber", "e.charCode" ],
+    [ "e.ctrlKey\tboolean", "e.ctrlKey" ],
+    [ "e.getModifierState\tfunction", "e.getModifierState($0)" ],
+    [ "e.key\tString", "e.key" ],
+    [ "e.keyCode\tNumber", "e.keyCode" ],
+    [ "e.locale\tString", "e.locale" ],
+    [ "e.location\tNumber", "e.location" ],
+    [ "e.metaKey\tboolean", "e.metaKey" ],
+    [ "e.repeat\tboolean", "e.repeat" ],
+    [ "e.shiftKey\tboolean", "e.shiftKey" ],
+    [ "e.which\tNumber", "e.which" ],
+
+    [ "e.relatedTarget\tDOMEventTarget", "e.relatedTarget" ],
+
+    [ "e.button\tNumber", "e.button" ],
+    [ "e.buttons\tNumber", "e.buttons" ],
+    [ "e.clientX\tNumber", "e.clientX" ],
+    [ "e.clientY\tNumber", "e.clientY" ],
+    [ "e.pageX\tNumber", "e.pageX" ],
+    [ "e.pageY\tNumber", "e.pageY" ],
+    [ "e.screenX\tNumber", "e.screenX" ],
+    [ "e.screenY\tNumber", "e.screenY" ],
+
+    [ "e.changedTouches\tDOMTouchList", "e.changedTouches" ],
+    [ "e.targetTouches\tDOMTouchList", "e.targetTouches" ],
+    [ "e.touches\tDOMTouchList", "e.touches" ],
+
+    [ "e.detail\tNumber", "e.detail" ],
+    [ "e.view\tDOMAbstractView", "e.view" ],
+
+    [ "e.deltaMode\tNumber", "e.deltaMode" ],
+    [ "e.deltaX\tNumber", "e.deltaX" ],
+    [ "e.deltaY\tNumber", "e.deltaY" ],
+    [ "e.deltaZ\tNumber", "e.deltaZ" ]
+  ]
+}
