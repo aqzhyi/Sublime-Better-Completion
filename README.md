@@ -7,7 +7,7 @@ This package aim at provide a simpler way to build own auto-completions and avoi
 
 **auto-completion** is lightweight, easier, simpler than **snippets**.
 
-This package also provide several APIs completions such as JavaScript, jQuery, Lodash, Underscore, HTML5, CSS3 and Bootstrap Classes collect by me.
+This package also provide several APIs completions such as JavaScript, jQuery, Lodash, Underscore, HTML5, CSS3 and Bootstrap Classes, React.js, etc
 
 
 ## Compatible
@@ -16,7 +16,7 @@ Should be working fine with ST2 and ST3.
 
 2015/02
 
-- Sublime Text 3 with MAC OS X 10.10.2 using Package Control **tested**! (create new user on OS X)
+- Sublime Text 3 with MAC OS X 10.10.2 using Package Control **tested**!
 
 2014/08
 
@@ -53,7 +53,7 @@ Should be working fine with ST2 and ST3.
 
     * **In English**:
 
-        It seems like when scope matched would be override word-completions provide by sublime itself. refer to issue#3.
+        It seems like when scope matched would be override word-completions provide by sublime itself. refer to [issue#3](https://github.com/Pleasurazy/Sublime-Better-Completion/issues/3).
 
     * **In Chinese**:
 
@@ -112,6 +112,7 @@ Make your own API files that contains *keyword* such as `html`, `jquery`, `myglo
     "twitter-bootstrap-less-variables": false,
     "twitter-bootstrap3": false,
     "underscorejs": false,
+    "react": false,
 
     // Your own completions?
     // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-angularjs.sublime-settings
