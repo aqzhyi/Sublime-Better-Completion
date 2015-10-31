@@ -111,6 +111,7 @@ Make your own API files that contains *keyword* such as `html`, `jquery`, `myglo
     "twitter-bootstrap": false,
     "twitter-bootstrap-less-variables": false,
     "twitter-bootstrap3": false,
+    "twitter-bootstrap3-sass-variables": false,
     "underscorejs": false,
     "react": false,
 
@@ -151,8 +152,8 @@ After you enable, disable or added new your own completions, you might need rest
 * Twitter Bootstrap Version 2 and 3
 
     * http://getbootstrap.com/
-
     * http://twitter.github.io/bootstrap/index.html
+    * https://github.com/twbs/bootstrap-sass
 
 * HTML / HTML5
 
