@@ -144,6 +144,7 @@ After you enable, disable or added new your own completions, you might need rest
 
     * http://overapi.com/javascript/
     * http://www.w3schools.com/js/
+    * https://www.scaler.com/topics/javascript/
 
 * Underscore 1.5.1
 
