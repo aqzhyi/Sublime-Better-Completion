@@ -158,6 +158,7 @@ After you enable, disable or added new your own completions, you might need rest
 * HTML / HTML5
 
     * http://devdocs.io/html-html5/
+    * https://www.scaler.com/topics/html/
 
 * Lodash 3.3.0
 
